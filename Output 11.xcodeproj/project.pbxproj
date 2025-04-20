@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD5E65172DB4B2B2007E7D62 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E65162DB4B2B2007E7D62 /* SecondView.swift */; };
+		BD5E65192DB4BA4A007E7D62 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E65182DB4BA4A007E7D62 /* ThirdView.swift */; };
+		BD5E651B2DB4C098007E7D62 /* FourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E651A2DB4C098007E7D62 /* FourView.swift */; };
+		BD5E651D2DB4C0CC007E7D62 /* FiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E651C2DB4C0CC007E7D62 /* FiveView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BD5E64FA2DB4B09A007E7D62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		BD5E64E92DB4B098007E7D62 /* Output 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Output 11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E64F92DB4B09A007E7D62 /* Output 11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Output 11Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E65032DB4B09A007E7D62 /* Output 11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Output 11UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5E65162DB4B2B2007E7D62 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD5E65182DB4BA4A007E7D62 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		BD5E651A2DB4C098007E7D62 /* FourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourView.swift; sourceTree = "<group>"; };
+		BD5E651C2DB4C0CC007E7D62 /* FiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,10 @@
 		BD5E64E02DB4B098007E7D62 = {
 			isa = PBXGroup;
 			children = (
+				BD5E651C2DB4C0CC007E7D62 /* FiveView.swift */,
+				BD5E651A2DB4C098007E7D62 /* FourView.swift */,
+				BD5E65182DB4BA4A007E7D62 /* ThirdView.swift */,
+				BD5E65162DB4B2B2007E7D62 /* SecondView.swift */,
 				BD5E64EB2DB4B098007E7D62 /* Output 11 */,
 				BD5E64FC2DB4B09A007E7D62 /* Output 11Tests */,
 				BD5E65062DB4B09A007E7D62 /* Output 11UITests */,
@@ -236,6 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E651B2DB4C098007E7D62 /* FourView.swift in Sources */,
+				BD5E65192DB4BA4A007E7D62 /* ThirdView.swift in Sources */,
+				BD5E651D2DB4C0CC007E7D62 /* FiveView.swift in Sources */,
+				BD5E65172DB4B2B2007E7D62 /* SecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
